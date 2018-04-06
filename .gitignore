@@ -1,6 +1,5 @@
 .vs/*
 **/bin
 **/obj
-USBLAN_Sample/packages.config
 packages/
 
