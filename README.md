@@ -1,9 +1,16 @@
-You need to add the datalogic-ce-sync NuGet package to compile.
+# USBLAN Sample
+Demonstrates how to use the [datalogic-ce-sync library](https://www.nuget.org/packages/datalogic-ce-sync/).
 
-# Add a local repo
-get .nupkg from Jenkins
-drop it into local folder (C:\program files(x86)\Nuget)?
+## To compile
+cd into the "USBLAN_Sample directory". Now run the following command:
 
-# Add from nuget.org
-find it and add it.
+  dotnet publish -c release -r win10-x64 --self-contained
+
+
+This will generate a folder containing USBLAN_Sample.exe along with all necessary dll's, such that you can just drop the folder onto any Windows 7/8/10 PC and run the executable.  The folder is generated at:
+
+  bin/release/netcoreapp2.0/win10-x64/publish
+
+A compiled copy of that folder is availalbe [here](win10-x64) for your convenience as well.
+
 
